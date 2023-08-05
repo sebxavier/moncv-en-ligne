@@ -1,0 +1,44 @@
+/* body {
+    background-color: lightblue;
+} */
+
+.contenu {
+    width: 500px;
+    margin: 10px auto;   /* pour centrer le contenu au milieu */
+    /* background-color: aquamarine; */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+}
+
+hr {
+    border-color: rgb(16, 56, 214);
+}
+
+.details {
+    /* background-color: orange; */
+    height: 150px;
+}
+
+div.details img {
+    height: 150px;
+    float: left;
+    border-radius: 50%;
+}
+
+.liste-details {
+    /* background-color: yellow; */
+    float: left;  /* pour eviter que la liste soit sur l'image */
+    list-style-type: none;  /* pour enlever les points */
+    margin-top: 25px;
+}
+
+.cv-section {
+    /* background-color: blue; */
+    padding-bottom: 20px;
+}
